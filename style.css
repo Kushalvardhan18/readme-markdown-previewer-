@@ -5,17 +5,18 @@
   background-color: rgb(80, 76, 76);
 }
 
-h1{
-    text-align: center;
-    margin: 30px;
+h1 {
+  color:cornsilk;
+  text-align: center;
+  margin: 30px;
 }
-.headings{
-    display: flex;
-    justify-content: space-between;
-    margin-inline: 50px;
-    font-size: 20px;
-    font-weight: 600;
-    color: palevioletred;
+.headings {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color:chartreuse;
 }
 .previewer {
   display: flex;
@@ -25,10 +26,10 @@ h1{
 #readme {
   width: 50%;
   height: 90vh;
-  border: 1px solid palevioletred;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #markdown {
   width: 50%;
   height: 90vh;
-  border: 1px solid rgb(244, 16, 16);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
